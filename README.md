@@ -3,31 +3,23 @@ Just a super quick exercise to get a tic tac toe game functioning. It's not pret
 
 **Link to project:** https://tictactoepractise.netlify.app/
 
-![alt tag](http://placecorgi.com/1200/650)
+![alt tag](https://d33wubrfki0l68.cloudfront.net/62244ba5636c522790bbefa1/screenshot_2022-03-06-05-50-32-0000.png)
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, Framework of choice
+**Tech used:** HTML, CSS, JavaScript
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+This was a rush practise to see how quickly I could code out the logic for a tic tac toe game. Is it pretty? No, but it works! Working with javascript is super fun. 
 
 ## Optimizations
 *(optional)*
 
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+This definitely is not optimal. No objects were used. It was just basic arrays and functions with some dom manipulation. I'd rewrite it with objects and reduce code redundancy. 
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+Realised that when you add an event listener, if you add the function then and there it runs automatically. I had to use an anonymous function to get around this. The use of an array for the board worked well though.
 
-## Examples:
-Take a look at these couple examples that I have in my own portfolio:
-
-**Palettable:** https://github.com/alecortega/palettable
-
-**Twitter Battle:** https://github.com/alecortega/twitter-battle
-
-**Patch Panel:** https://github.com/alecortega/patch-panel
 
 
 
