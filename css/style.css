@@ -1,0 +1,66 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+section {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.gridContainer {
+  display: grid;
+  width: 500px;
+  height: 500px;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  margin: 50px auto;
+}
+
+.square {
+  border: solid 1px black;
+  background-color: whitesmoke;
+}
+
+#square1 {
+
+}
+
+.fillX {
+  background-image: url('../x.png');
+  background-position: center center;
+  background-size: cover;
+  pointer-events:none;
+}
+
+.fillO {
+  background-image: url('../o.png');
+  background-position: center center;
+  background-size: cover;
+  pointer-events:none;
+}
+
+.disable {
+  background-size: cover;
+  pointer-events:none;
+}
+
+h2 {
+  font-size: 200%;
+}
+
+h1 {
+  font-size: 400%;
+  color: red;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
